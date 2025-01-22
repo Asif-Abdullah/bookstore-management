@@ -1,0 +1,15 @@
+title: My Jekyll Site
+description: >
+  This is a sample site description.
+baseurl: "" # Leave empty for root deployment; set to "/repo-name" for GitHub Pages
+url: "https://asif-abdullah.github.io" # Your site URL
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - .bundle
+  - vendor
+  - tmp
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
